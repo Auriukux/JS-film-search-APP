@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.movie-container {
+    max-width: 500px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    text-align: center;
+}
+
+.movie-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.movie-poster {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.movie-info {
+    width: 100%;
+    text-align: left;
+}
+
+.movie-title {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.movie-fact {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.close-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.close-button:hover {
+    background-color: #0056b3;
+}
+
+header, footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    margin-top: auto;
+    padding: 5px 0;
+}
+
+footer p {
+    margin: 0;
+}
